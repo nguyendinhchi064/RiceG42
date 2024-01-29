@@ -101,8 +101,8 @@ public class ModelResource {
 
     @POST
     @RolesAllowed("User")
-    @Path("/predict")
-    public Response predict(String fileName) {
+    @Path("/predict/{fileName}")
+    public Response predict(@PathParam("fileName")String fileName) {
         String username = securityContext.getUserPrincipal().getName();
         try {
             String inputPath = Paths.get(uploadDir, username, "upload", fileName).toString();
@@ -121,7 +121,7 @@ public class ModelResource {
     }
     @GET
     @Path("/all")
-    @RolesAllowed({"User", "Admin"}) 
+    @RolesAllowed({"User", "Admin"})
     @Produces(MediaType.APPLICATION_JSON)
     public Response getAllDataEntities() {
         List<DataEntity> allDataEntities = DataEntity.listAll();
