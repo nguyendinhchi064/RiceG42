@@ -1,4 +1,3 @@
-UserPage\model\FileUploadForm.class
 AdminPage\resource\AdminResource.class
 UserPage\model\ProjDbDTO.class
 Login_Register\resources\AuthService.class

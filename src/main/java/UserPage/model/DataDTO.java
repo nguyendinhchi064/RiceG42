@@ -1,6 +1,7 @@
 package UserPage.model;
 
 import jakarta.ws.rs.FormParam;
+import jakarta.ws.rs.HeaderParam;
 import jakarta.ws.rs.core.MediaType;
 import org.jboss.resteasy.annotations.providers.multipart.PartType;
 
@@ -10,12 +11,15 @@ public class DataDTO {
     @FormParam("DataName")
     @PartType("text/plain")
     private String dataName;
+
     @FormParam("file")
     @PartType("application/octet-stream")
     private InputStream fileData;
 
-
+    @FormParam("fileName")
+    @PartType("text/file")
     private String fileName;
+
 
     // Getters and Setters
     public InputStream getFileData() {
@@ -30,11 +34,8 @@ public class DataDTO {
         return fileName;
     }
 
-    public void setFileName(String fileName) {
-        this.fileName = fileName;
-    }
-
-
+    // The setFileName method is not needed anymore
+    // as the filename is set from the Content-Disposition header
 
     public String getDataName() {
         return dataName;
@@ -44,4 +45,7 @@ public class DataDTO {
         this.dataName = dataName;
     }
 
+    public void setFileName(String fileName) {
+        this.fileName = fileName;
+    }
 }

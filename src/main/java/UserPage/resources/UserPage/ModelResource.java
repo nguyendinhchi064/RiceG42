@@ -12,7 +12,6 @@ import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
 import jakarta.ws.rs.core.SecurityContext;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
-import org.eclipse.microprofile.jwt.JsonWebToken;
 import org.jboss.resteasy.annotations.providers.multipart.MultipartForm;
 
 
@@ -50,14 +49,14 @@ public class ModelResource {
             return Response.status(Response.Status.INTERNAL_SERVER_ERROR).entity("Failed to create directory").build();
         }
 
-//        String filename = Paths.get(userUploadDir, dataUploadForm.getFileName()).toString();
-//        try (InputStream inputStream = dataUploadForm.getFileData();
-//             OutputStream outputStream = new FileOutputStream(filename)) {
-//            inputStream.transferTo(outputStream);
-//        } catch (IOException e) {
-//            LOGGER.log(Level.SEVERE, "Error saving file for user: " + username, e);
-//            return Response.status(Response.Status.INTERNAL_SERVER_ERROR).entity("Error saving file").build();
-//        }
+        String filename = Paths.get(userUploadDir, dataUploadForm.getFileName()).toString();
+        try (InputStream inputStream = dataUploadForm.getFileData();
+             OutputStream outputStream = new FileOutputStream(filename)) {
+            inputStream.transferTo(outputStream);
+        } catch (IOException e) {
+            LOGGER.log(Level.SEVERE, "Error saving file for user: " + username, e);
+            return Response.status(Response.Status.INTERNAL_SERVER_ERROR).entity("Error saving file").build();
+        }
 
         // Create DataEntity and Persist
         DataEntity dataEntity = new DataEntity();
