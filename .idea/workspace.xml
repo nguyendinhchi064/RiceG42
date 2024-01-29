@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="245117c9-4cf2-4513-8db6-58dac93aaa90" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2ZXh8osbklMbIA2E7IjymQCyKDC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JPA.DatabaseSchemaImportDialog&quot;: &quot;85a9c6a1-3972-4968-81de-f14289202cac&quot;,
+    &quot;Quarkus.ricefield_fertilizer.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;E:/Quarkus-Choco/Group_Project/ricefield_fertilizer/ricefield_fertilizer/src/main/java/Login_Register&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Quarkus-Choco/Group_Project/ricefield_fertilizer/ricefield_fertilizer/target/classes/Login_Register/AuthResource.class&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Confirmation&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;E:/Quarkus-Choco/Group_Project/ricefield_fertilizer/ricefield_fertilizer/target/classes/Login_Register/AuthResource.class&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Login_Register" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="UserPage.model" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="UserPage" />
+      <recent name="Login_Register" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ricefield_fertilizer" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
+      <module name="ricefield_fertilizer" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="cmdOptions" />
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="multimoduleDir" />
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="projectsCmdOptionValues">
+                <list />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+        <emulateTerminal>false</emulateTerminal>
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-19.0.2-corretto-19.0.2-3183f394aec4-f0552fc0" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="245117c9-4cf2-4513-8db6-58dac93aaa90" name="Changes" comment="" />
+      <created>1702574190813</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702574190813</updated>
+      <workItem from="1702574202781" duration="17177000" />
+      <workItem from="1702788772590" duration="16155000" />
+      <workItem from="1702874038768" duration="26718000" />
+      <workItem from="1702960957923" duration="13366000" />
+      <workItem from="1703070145706" duration="15949000" />
+      <workItem from="1703128229267" duration="16652000" />
+      <workItem from="1703308204391" duration="3612000" />
+      <workItem from="1703425113162" duration="1959000" />
+      <workItem from="1703485010637" duration="14415000" />
+      <workItem from="1703599430868" duration="4408000" />
+      <workItem from="1703659966978" duration="5603000" />
+      <workItem from="1703673707136" duration="10909000" />
+      <workItem from="1703735410961" duration="660000" />
+      <workItem from="1703736096277" duration="5660000" />
+      <workItem from="1703828370495" duration="27874000" />
+      <workItem from="1704087203089" duration="14890000" />
+      <workItem from="1704271968948" duration="63822000" />
+      <workItem from="1704859160192" duration="12014000" />
+      <workItem from="1704960711227" duration="10836000" />
+      <workItem from="1705316344966" duration="2412000" />
+      <workItem from="1705483834089" duration="13558000" />
+      <workItem from="1705567319033" duration="16633000" />
+      <workItem from="1705732011703" duration="5717000" />
+      <workItem from="1705914447138" duration="13822000" />
+      <workItem from="1706161502495" duration="17327000" />
+      <workItem from="1706205951868" duration="622000" />
+      <workItem from="1706259559861" duration="16177000" />
+      <workItem from="1706286531503" duration="91470000" />
+      <workItem from="1706484197248" duration="7861000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

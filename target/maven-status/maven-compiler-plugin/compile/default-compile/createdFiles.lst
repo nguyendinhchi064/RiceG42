@@ -1,0 +1,14 @@
+UserPage\model\FileUploadForm.class
+AdminPage\resource\AdminResource.class
+UserPage\model\ProjDbDTO.class
+Login_Register\resources\AuthService.class
+UserPage\resources\UserPage\ModelResource.class
+Login_Register\model\RegisterRequest.class
+META-INF\panache-archive.marker
+UserPage\model\ProjDb.class
+UserPage\resources\UserPage\ProjectResource.class
+Login_Register\resources\AuthResource.class
+Login_Register\model\User.class
+UserPage\model\DataDTO.class
+Login_Register\model\LoginRequest.class
+UserPage\model\DataEntity.class
