@@ -9,8 +9,8 @@ import java.util.Objects;
 @Entity
 @Table(name = "Database_Inf", schema = "mydatabase")
 public class DataEntity extends PanacheEntityBase {
-    @GeneratedValue(strategy = GenerationType.AUTO)
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "Data_Id")
     private long DataId;
 
@@ -18,6 +18,19 @@ public class DataEntity extends PanacheEntityBase {
     @Column(name = "DataName")
     private String DataName;
 
+    @Basic
+    @Column(name = "FileName")
+    private String FileName;
+
+    // Getters and Setters for DataName
+
+    public String getFileName() {
+        return FileName;
+    }
+
+    public void setFileName(String fileName) {
+        FileName = fileName;
+    }
     public String getDataName() {
         return DataName;
     }

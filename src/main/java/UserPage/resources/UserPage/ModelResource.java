@@ -63,7 +63,7 @@ public class ModelResource {
         // Create DataEntity and Persist
         DataEntity dataEntity = new DataEntity();
         dataEntity.setDataName(dataUploadForm.getDataName());
-        // Optionally set the file reference in dataEntity here
+        dataEntity.setFileName(dataUploadForm.getFileName()); // Set the file name here
         dataEntity.persist();
 
         LOGGER.info("File uploaded and data entity created successfully for user: " + username);
