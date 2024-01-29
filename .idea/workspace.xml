@@ -43,35 +43,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JPA.DatabaseSchemaImportDialog&quot;: &quot;85a9c6a1-3972-4968-81de-f14289202cac&quot;,
-    &quot;Quarkus.ricefield_fertilizer.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;E:/Quarkus-Choco/Group_Project/ricefield_fertilizer/ricefield_fertilizer/src/main/java/Login_Register&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Quarkus-Choco/Group_Project/ricefield_fertilizer/ricefield_fertilizer/target/classes/Login_Register/AuthResource.class&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Confirmation&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;E:/Quarkus-Choco/Group_Project/ricefield_fertilizer/ricefield_fertilizer/target/classes/Login_Register/AuthResource.class&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JPA.DatabaseSchemaImportDialog": "85a9c6a1-3972-4968-81de-f14289202cac",
+    "Quarkus.ricefield_fertilizer.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "E:/Quarkus-Choco/Group_Project/ricefield_fertilizer/ricefield_fertilizer/src/main/java/Login_Register",
+    "last_opened_file_path": "E:/Quarkus-Choco/Group_Project/ricefield_fertilizer/ricefield_fertilizer/target/classes/Login_Register/AuthResource.class",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "two.files.diff.last.used.file": "E:/Quarkus-Choco/Group_Project/ricefield_fertilizer/ricefield_fertilizer/target/classes/Login_Register/AuthResource.class",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Login_Register" />
@@ -166,7 +166,7 @@
       <workItem from="1706205951868" duration="622000" />
       <workItem from="1706259559861" duration="16177000" />
       <workItem from="1706286531503" duration="91470000" />
-      <workItem from="1706484197248" duration="10585000" />
+      <workItem from="1706484197248" duration="13517000" />
     </task>
     <servers />
   </component>
