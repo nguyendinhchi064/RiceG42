@@ -120,27 +120,12 @@ public class ModelResource {
         }
     }
     @GET
-    @Path("/listUploadedFiles")
-    @RolesAllowed({"User", "Admin"})
+    @Path("/all")
+    @RolesAllowed({"User", "Admin"}) 
     @Produces(MediaType.APPLICATION_JSON)
-    public Response listUploadedFiles() {
-        String username = securityContext.getUserPrincipal().getName();
-        String userUploadDir = Paths.get(uploadDir, username, "upload").toString();
-
-        File directory = new File(userUploadDir);
-        if (!directory.exists()) {
-            LOGGER.warning("Upload directory not found for user: " + username);
-            return Response.status(Response.Status.NOT_FOUND).entity("Upload directory not found").build();
-        }
-
-        String[] files = directory.list();
-        if (files == null) {
-            LOGGER.warning("Failed to list files in directory: " + userUploadDir);
-            return Response.status(Response.Status.INTERNAL_SERVER_ERROR).entity("Failed to list files").build();
-        }
-
-        List<String> fileList = Arrays.asList(files);
-        return Response.ok(fileList).build();
+    public Response getAllDataEntities() {
+        List<DataEntity> allDataEntities = DataEntity.listAll();
+        return Response.ok(allDataEntities).build();
     }
 
     @GET
